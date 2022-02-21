@@ -4,7 +4,7 @@ import  pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-st.image('img.jpeg')
+st.image('Streamlit_webapp\img.jpeg')
 
 data =  st.file_uploader('upload Your "CSV" File',type = 'csv')
 
